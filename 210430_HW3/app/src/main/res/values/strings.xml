@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">201835518_전소영</string>
+    <string name="main">메인</string>
+    <string name="menu">메뉴</string>
+    <string name="listViewFrag">ListView Fragment</string>
+    <string name="spinnerFrag">Spinner Fragment</string>
+
+</resources>

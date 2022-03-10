@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/timeView"
+            android:gravity="center"
+            android:text="00:00:00:00"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/startBtn"
+                android:background="@drawable/button_border"
+                android:text="시작"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/recordBtn"
+                    android:background="@drawable/button_border"
+                    android:text="기록"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    android:layout_weight="1" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/pauseBtn"
+                    android:background="@drawable/button_border"
+                    android:text="일시정지"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    android:layout_weight="1" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/stopBtn"
+                    android:background="@drawable/button_border"
+                    android:text="중지"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/moreBtn"
+            android:background="@drawable/button_border"
+            android:text="더보기"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</LinearLayout>
